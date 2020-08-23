@@ -32,6 +32,14 @@ nav{
     display: flex;
     flex-direction: column;
 }
+.logo{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    object-fit: cover;
+}
 header{
     display: flex;
     flex-direction: row;
@@ -62,6 +70,9 @@ header ul li a:hover, header ul li a.active{
     text-decoration: none;
     color: #ea5455;
 }
+.container{
+    transition: .5s;
+}
 .image{
     object-fit: cover;
     height: 400px;
@@ -87,4 +98,7 @@ span{
     font-size: 60px;
     color: #ea5455;
     margin: 5px;
+}
+#my_first.resume{
+    display: none;
 }
