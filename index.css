@@ -96,8 +96,8 @@ span{
     color: #ea5455;
     margin: 5px;
 }
-#my_first{
-    /* display: none; */
+#my_first.hire{
+    display: block;
 }
 #my_first.resume{
     display: none;

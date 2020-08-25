@@ -9,3 +9,8 @@ skills.addEventListener('click', function(){
     var display1 = document.querySelector('#my_first');
     display1.classList.toggle('resume')
 })
+
+// var home = document.querySelector('#hire')
+// home.addEventListener('click', function(){
+//     display1.classList.toggle("hire")
+// })
