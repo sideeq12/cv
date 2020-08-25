@@ -97,7 +97,7 @@ span{
     margin: 5px;
 }
 #my_first{
-    display: none;
+    /* display: none; */
 }
 #my_first.resume{
     display: none;
@@ -122,6 +122,69 @@ span{
     cursor: pointer;
     transform: scale(1.2);
     transition: .5s;
-    /* box-shadow: 2px 2px 2px yellow; */
-
+}
+#burger{
+    display: none;
+}
+@media (max-width: 600px){
+   .white{
+       display: none;
+   }
+   #my_first{
+       display: block;
+       margin-top: 50px;
+       border-bottom: 2px solid white;
+   }
+   header ul{
+       display:none;
+       width: 100%;
+       margin-top: 100px;
+       margin-right:0px;
+       margin-left: 0px;
+       background-color: rgb(26, 24, 24);
+       transition: .5s;
+   }
+   header ul.active{
+       display: block;
+       transition: .5s;
+   }
+   header ul li{
+       width: 100%;
+       /* color: blue; */
+      
+   }
+   .text{
+       margin-left: 0px;
+       line-height: 50px;
+   }
+   #burger{
+       display: block;
+       border: 1px solid red;
+       width: fit-content;
+       height: fit-content;
+       border-radius: 5px;
+       padding: 4px;
+       position: absolute;
+       margin-top: 60px;
+       margin-left: 500px;
+   }
+   #slice{
+       height: 3px;
+       width: 51px;
+       margin-top: 2px;
+       margin-bottom: 2px; 
+       background-color: red;
+   }
+   #burger:hover{
+       cursor: pointer;
+        border-color: white;
+   }
+   .color{
+       display: none;
+   }
+   .main{
+       width: 100%;
+       height: fit-content;
+       margin: 0;
+   }
 }
